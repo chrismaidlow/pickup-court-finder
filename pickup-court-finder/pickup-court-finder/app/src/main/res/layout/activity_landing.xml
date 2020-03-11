@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LandingActivity"
+    android:background="@drawable/background">
+
+    <ImageView
+        android:id="@+id/spartyImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/will"
+        android:padding="20dp"
+        android:src="@drawable/will" />
+
+
+    <Button
+        android:id="@+id/buttonCreate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onCreateButton"
+        android:text="@string/button_create"
+        android:layout_below="@id/spartyImage"/>
+
+    <Button
+        android:id="@+id/buttonJoin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onGameButton"
+        android:text="@string/button_join"
+        android:layout_below="@id/buttonCreate"/>
+
+    <Button
+        android:id="@+id/buttonJoined"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onGameButton"
+        android:text="@string/button_joined_games"
+        android:layout_below="@id/buttonJoin"/>
+
+    <Button
+        android:id="@+id/buttonMine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onGameButton"
+        android:text="@string/button_my_games"
+        android:layout_below="@id/buttonJoined"/>
+
+</RelativeLayout>

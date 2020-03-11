@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "101102366027",
+    "firebase_url": "https://pickup-e40e9.firebaseio.com",
+    "project_id": "pickup-e40e9",
+    "storage_bucket": "pickup-e40e9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:101102366027:android:0a2ee917b32e05ca3e8cce",
+        "android_client_info": {
+          "package_name": "edu.msu.carro228.pickup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "101102366027-ljjrvhpcsi921pdqs5kpvvbsrpa7khe6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAX7XBte18eLc3OGCn538_H6QlIY7LydDw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "101102366027-ljjrvhpcsi921pdqs5kpvvbsrpa7khe6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Pickup</string>
+    <string name="button_join">Join Pickup Game</string>
+    <string name="button_create">Create Pickup Game</string>
+    <string name="button_my_games">My Games</string>
+    <string name="button_joined_games">Joined Games</string>
+    <string name="type_label">Game Type:</string>
+    <string name="max_label">Max players:</string>
+    <string name="start_time">(00:00)</string>
+    <string name="start_day">Start day</string>
+    <string name="desc_label">Description:</string>
+    <string name="cost_label">Game Cost:</string>
+    <string name="game_name">Game Name:</string>
+    <string name="difficulty_label">Difficulty:</string>
+    <string name="button_set_loc">Set Location:</string>
+    <string name="location_not_found_msg">Location not found</string>
+    <string name="location_exception">There was an error with location services</string>
+    <string name="new_location_hint">New Location</string>
+    <string name="my_location_button">Current Location</string>
+    <string name="confirm_button">Confirm</string>
+    <string name="place_button">Place here</string>
+    <string name="current_location_label">Current Location:</string>
+    <string name="empty"></string>
+    <string name="radius_label">Radius:</string>
+    <string name="search_text">Search</string>
+    <string name="navigate_text">Go to Game</string>
+    <string name="description_label">Description:</string>
+    <string name="back">Go back</string>
+    <string name="hintForType">3 on 3 Basketball</string>
+    <string name="participating">Will You Be Participating?</string>
+    <string name="missing_field_text">Please be sure to fill out all of the fields</string>
+    <string name="will">In West Philadelphia Born and Raised</string>
+</resources>
